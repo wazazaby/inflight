@@ -1,4 +1,9 @@
 # inflight
+[![CI](https://github.com/wazazaby/inflight/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/wazazaby/inflight/actions/workflows/build-and-test.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/wazazaby/inflight.svg)](https://pkg.go.dev/github.com/wazazaby/inflight)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wazazaby/inflight)](https://goreportcard.com/report/github.com/wazazaby/inflight)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/wazazaby/inflight/blob/master/LICENSE)
+
 Package inflight provides a duplicate function call suppression mechanism.
 
 It allows multiple concurrent callers for the same key to share the result

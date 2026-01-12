@@ -12,5 +12,5 @@ It is also lock-free, if that matters (although `sync.OnceValues` and `sync.Map`
 
 ## Dependencies
 The package has two dependencies :
-* [github.com/go4org/hashtriemap](https://github.com/go4org/hashtriemap) which is the internal, generic, implementation of `sync.Map` exposed in a repository by [@bradfitz](https://github.com/bradfitz) (with all the internal code removed/replaced)
+* [github.com/go4org/hashtriemap](https://github.com/go4org/hashtriemap) which is the internal, generic, implementation of `sync.Map` exposed in a repository by [@bradfitz](https://github.com/bradfitz) (with all the internal code removed/replaced). It only depends on the standard library internaly.
 * `github.com/stretchr/testify` for tests
